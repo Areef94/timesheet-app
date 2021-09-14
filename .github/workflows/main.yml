@@ -33,4 +33,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run:  surge ./ timesheet-app-areef.surge.sh --token ${{ secrets.SURGE_TOKEN2 }}
+        run:  surge ./ timesheet-app-areef.surge.sh --token 4651682e6d5f38701457f368d9d7326c
